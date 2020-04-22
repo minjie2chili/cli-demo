@@ -1,0 +1,26 @@
+{
+  "name": "cli-demo",
+  "version": "1.0.0",
+  "description": "脚手架demo",
+  "main": "index.js",
+  "bin": {
+    "lee-cli": "./bin/www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^3.0.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^2.0.0"
+  }
+}
